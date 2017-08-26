@@ -1,4 +1,6 @@
-# 基于Scrapy的代理IP爬虫
+# scrapy\_proxy\_crawler
+
+基于scrapy的代理IP爬虫
 
 ## 解决什么问题
 
@@ -24,7 +26,7 @@
 
 一如启动普通scrapy爬虫一般:
 
-	scrapy crawl scrapy_proxy_spider
+	scrapy crawl proxy_spider
 
 其接收来自命令行的参数: `proxy_check_url`和`max_need_proxy`:
 
